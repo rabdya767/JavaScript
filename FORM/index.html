@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <style>
+        body{
+            background-color: #eee;
+        }
+        h2
+        {
+            text-align: center;
+            color: crimson;
+        }
+        form
+        {
+            max-width: 200px;
+            margin: 40px auto;
+            background: white;
+            padding: 10px;
+        }
+
+        input
+        {
+            display: block;
+            margin: 10px auto;
+            padding: 4px;
+        }
+        .success
+        {
+            border : 3px solid limegreen;
+        }
+
+        .error
+        {
+            border: 3px solid crimson;
+        }
+        .strong
+        {
+            border: 3px solid green;
+        }
+        .medium
+        {
+            border: 3px solid yellow; 
+        }
+
+        .weak
+        {
+            border: 3px solid red;
+        }
+    </style>
+</head>
+<body>
+    <h2>sign-up form</h2>
+    <form class="sign-up">
+        <input type="text" id='username'placeholder='username'>
+        <input type="password" id='password' placeholder='password'>
+        <div class="checkuser"></div>
+        <input type="submit" value='submit'>
+    </form>
+    <script src='sandbox.js'></script>
+</body>
+</html>

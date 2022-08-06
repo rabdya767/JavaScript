@@ -34,13 +34,13 @@ const SalesPrice=Product.map((x)=>{
 console.log(Product,SalesPrice);
 
 */
-const scores=[10,20,60,40,70,,90,30];
+const scores=[10, 20, 60, 40, 70,, 90, 30];
 // var count=0;
-const res=scores.reduce((count,score) =>{
-    if(score>50){
-        count++;
-    }
-    return count;
-},0);
+const res=scores.reduce((count, score) =>{
+	if (score>50) {
+		count++;
+	}
+	return count;
+}, 0);
 
 console.log(`There are ${res} half-centuries`);

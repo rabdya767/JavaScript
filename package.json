@@ -1,0 +1,27 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "Javascript Practice Examples",
+  "main": "clock.js",
+  "scripts": {
+    "test": "run"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rabdya767/JavaScript.git"
+  },
+  "keywords": [
+    "Javascript",
+    "Examples"
+  ],
+  "author": "rabdya santhosh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rabdya767/JavaScript/issues"
+  },
+  "homepage": "https://github.com/rabdya767/JavaScript#readme",
+  "dependencies": {
+    "npm": "^8.16.0"
+  }
+}
